@@ -1,0 +1,33 @@
+/* ChatBot Mobile Responsive Styles */
+@media (max-width: 640px) {
+  /* Adjust ChatBot widget for mobile */
+  #openwidget-container {
+    bottom: 20px !important;
+    right: 20px !important;
+  }
+  
+  #openwidget-launcher {
+    width: 56px !important;
+    height: 56px !important;
+  }
+  
+  #openwidget-widget {
+    width: 90vw !important;
+    height: 70vh !important;
+    max-width: 400px !important;
+    max-height: 600px !important;
+    bottom: 80px !important;
+    right: 10px !important;
+    left: 10px !important;
+  }
+}
+
+@media (max-width: 475px) {
+  #openwidget-widget {
+    width: 95vw !important;
+    height: 80vh !important;
+    bottom: 80px !important;
+    right: 5px !important;
+    left: 5px !important;
+  }
+}
